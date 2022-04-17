@@ -1,0 +1,96 @@
+.box-menu {
+    background-image: url('../../assets/images/bg_home@2x.png');
+    //height: 500px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.columna-logotipo {
+    float: left;
+    .menu-login {
+        float: right;
+        margin-top: 4px;
+        .a-login {
+            margin-top: 2px;
+            margin-left: 10px;
+            color: #fff;
+            margin-right: 10px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+}
+
+.columna-menu {
+    float: right;
+    .btn-oferta {
+        background: #fff;
+    }
+    .a-login {
+        color: #fff;
+        margin-right: 10px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+.mi-menu {
+    padding-top: 20px;
+}
+
+.search {
+    p.info-search {
+        color: #fff;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    p.info-search2 {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    width: 650px;
+    margin:0 auto;
+    .mi-buscador {
+        background: #fff;
+        border-radius: 4px;
+        padding: 5px;
+        input {
+            border: 0px;
+            width: 90%;
+            outline: none;
+        }
+        button {
+            outline: none;
+        }
+    }
+}
+
+.search-full {
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    background: #fff;
+    .btn-search-full {
+        background: #4052FF;
+        border-radius: 12px;
+        color: #fff;
+        padding: 20px;
+        outline: none;
+        width: 100%;
+    }
+    .full-search {
+        label {
+            font-weight: bold;
+            font-size: 14px;
+            color: #313C6E;
+        }
+        input {
+            border: 0px;
+            color: #313C6E;
+            font-weight: 400;
+            font-size: 16px;
+            outline: none;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+<div class="container mt-5 bg-white box-oferta">
+    <div class="row">
+        <div class="col-lg-9">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="img-oferta" [ngStyle]="{'background-image': 'url('+ oferta.image + ')' }"></div>
+                </div>
+                <div class="col-lg-9">
+                    <p>{{oferta.tittle}}</p>
+                    <p>{{oferta.company}}</p>
+                </div>
+                <div class="col-lg-12 box-info-oferta">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button">Ver web</button></li>
+                            <li><button class="dropdown-item" type="button">Ver detalle</button></li>
+                            <li><button class="dropdown-item" type="button">Eliminar</button></li>
+                        </ul>
+                    </div>
+
+                    <div class="datos-oferta">
+                        <p class="p-title">Localizacion</p>
+                        <p class="p-info">{{oferta.location}}</p>
+
+                        <p class="p-title">Formato</p>
+                        <p [ngClass]="{'full-time': oferta.status == 'Tiempo Completo','freelancer': oferta.status == 'Freelancer','proyecto': oferta.status == 'Proyecto','practica': oferta.status == 'Prácticas'}">{{oferta.status}}</p>
+
+                        <p class="p-title">Fecha publicación</p>
+                        <p class="p-info">{{oferta.created}}</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-5 box-candidatos">
+    <h3 class="title-candidatos">4 candidatos inscritos</h3>
+    <div class="row bg-white candidatura mt-2" *ngFor="let candidato of candidatos">
+        <div class="col-2">
+            {{candidato.logo}}
+        </div>
+        <div class="col-3">
+            {{candidato.name}} {{candidato.surname}}
+        </div>
+        <div class="col-3"></div>
+        <div class="col-4 justify-content-end">
+            <button type="button" class="btn btn-cv"><fa-icon [icon]="faCv"></fa-icon>  Visualizar CV</button>
+
+            <button type="button" class="btn btn-contacto"><fa-icon [icon]="faContacto"></fa-icon>  Contactar </button>
+        </div>
+    </div>
+</div>

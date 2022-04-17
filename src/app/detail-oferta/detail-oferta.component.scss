@@ -1,0 +1,99 @@
+.img-oferta {
+    width: 100%;
+    height: 84px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.box-oferta {
+    padding: 20px;
+}
+
+.box-info-oferta {
+    margin-top: 15px;
+}
+
+.btn-cv {
+    color: #fff;
+    background: #4052FF;
+    border-radius: 9px;
+    margin-right: 10px;
+}
+
+.btn-contacto {
+    color: #4052FF;
+    border: 1px solid #4052FF;
+    border-radius: 9px;
+}
+
+.datos-oferta {
+    margin-top: 45px;
+    p.p-title {
+        color: #55448d;
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    p.p-info {
+        color: #1F1348;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+p.full-time {
+    color: #293BE9;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    background: #cbcef5;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+p.freelancer {
+    color: #11C46F;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    background: #ccf3e0;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+p.proyecto {
+    color: #FF530B;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    background: #ffd0bc;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+p.practica {
+    color: #F9910A;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    background: #f9910a29;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+.candidatura {
+    padding: 10px;
+}
+
+.title-candidatos {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1F1348;
+    margin-bottom: 30px;
+}

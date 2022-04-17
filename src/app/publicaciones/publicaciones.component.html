@@ -1,0 +1,37 @@
+<div class="container box-content">
+    <h2 class="titulo-page">Mis publicaciones</h2>
+    <p class="subtitulo-page">Gestiona todas tus vacantes desde un mismo sitio</p>
+    <div class="box-publicacion" *ngFor="let publicacion of publicaciones">
+        <p [ngClass]="{'full-time': publicacion.status == 'Tiempo Completo','freelancer': publicacion.status == 'Freelancer','proyecto': publicacion.status == 'Proyecto','practica': publicacion.status == 'Prácticas'}">{{publicacion.status}}</p>
+
+        <div class="row bg-white publicacion">
+            <div class="col-2">
+                <div class="img-oferta" [ngStyle]="{'background-image': 'url('+ publicacion.image + ')' }"></div>
+            </div>
+            <div class="col-3">
+                <p class="title-oferta">{{publicacion.tittle}}</p>
+                <p class="company-oferta">{{publicacion.company}}</p>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3">
+                <p class="p-info">{{publicacion.created}}</p>
+                <p class="p-info">{{publicacion.location}}</p>
+            </div>
+            <div class="col-2">
+                <p [ngClass]="{'full-time2': publicacion.status == 'Tiempo Completo','freelancer2': publicacion.status == 'Freelancer','proyecto2': publicacion.status == 'Proyecto','practica2': publicacion.status == 'Prácticas'}">4<br> candidatos</p>
+            </div>
+            <div class="col-1">
+                <div class="btn-group dropend">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+
+              </button>
+                    <ul class="dropdown-menu">
+                        <li><button class="dropdown-item" type="button">Ver web</button></li>
+                        <li><button class="dropdown-item" type="button">Ver detalle</button></li>
+                        <li><button class="dropdown-item" type="button">Eliminar</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

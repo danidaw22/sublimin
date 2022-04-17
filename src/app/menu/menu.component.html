@@ -1,0 +1,50 @@
+<div class="box-menu">
+    <div class="container mi-menu">
+        <div class="columna-logotipo">
+            <a href="#"><img src="assets/images/sublimin.png" /></a>
+            <!--<div class="menu-login">
+                <a class="a-login">Buscar ofertas</a>
+                <a class="a-login">Mis publicaciones</a>
+            </div>-->
+        </div>
+        <div class="columna-menu">
+            <a class="a-login">Iniciar Sesión</a>
+            <button type="button" class="btn btn-oferta">Publicar oferta</button>
+        </div>
+        <div class="clearfix"></div>
+        <div class="search" *ngIf="mostrarHome">
+            <p class="info-search">Encuentra las mejores ofertas de empleo</p>
+            <div class="mi-buscador">
+                <input type="text" placeholder="Busca entre las ofertas de empleo">
+                <button class="btn"><img src="../../assets/images/ic_search.svg"></button>
+            </div>
+            <p class="info-search2">Busca diseñador web, fullstack, programador android ...</p>
+        </div>
+        <div class="search-full" *ngIf="mostrar">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="form-group full-search">
+                        <label for="name">Búsqueda</label>
+                        <input type="text" class="form-control" id="name" placeholder="fullstack developer">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="form-group full-search">
+                        <label for="oferta">Tipo de oferta</label>
+                        <input type="text" class="form-control" id="oferta" placeholder="Tiempo completo">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="form-group full-search">
+                        <label for="location">Localización</label>
+                        <input type="text" class="form-control" id="location" placeholder="Elige Localización">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <button class="btn btn-search-full"><img src="../../assets/images/ic_search2.svg"> Buscar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

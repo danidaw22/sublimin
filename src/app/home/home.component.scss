@@ -1,0 +1,105 @@
+.box-oferta {
+    .link-home {
+        text-decoration: none;
+        .title-oferta {
+            color: #1F1348;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .company-oferta {
+            color: #1F1348;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    background: #fff;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    height: 128px;
+    .img-oferta {
+        width: 100%;
+        height: 84px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: contain;
+    }
+    padding: 15px;
+}
+
+p.titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: #151958;
+    margin-top: 25px;
+}
+
+.p-info {
+    margin-top: 35px;
+}
+
+.s-info {
+    margin-top: 35px;
+}
+
+.box-btn {
+    float: right;
+    .btn-more {
+        background: #adb4f9;
+        font-size: 12px;
+        font-weight: 400;
+        color: #241850;
+        span {
+            color: #4052FF;
+            font-weight: bold;
+        }
+    }
+}
+
+p.full-time {
+    margin-top: 35px;
+    color: #293BE9;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    background: #cbcef5;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+p.freelancer {
+    margin-top: 35px;
+    color: #11C46F;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    background: #ccf3e0;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+p.proyecto {
+    margin-top: 35px;
+    color: #FF530B;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    background: #ffd0bc;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+p.practica {
+    margin-top: 35px;
+    color: #F9910A;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    background: #f9910a29;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}

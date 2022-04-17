@@ -1,0 +1,30 @@
+<div class="container">
+    <p class="titulo">Trabajos destacados de hoy</p>
+    <div *ngFor="let oferta of ofertas" class="box-oferta">
+        <a class="link-home" [routerLink]="['/oferta/'+ oferta._id]">
+            <div class="row">
+                <div class="col-2">
+                    <div class="img-oferta" [ngStyle]="{'background-image': 'url('+ oferta.image + ')' }"></div>
+                </div>
+                <div class="col-2">
+                    <p class="title-oferta">{{oferta.tittle}}</p>
+                    <p class="company-oferta">{{oferta.company}}</p>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2">
+                    <p class="p-info">{{oferta.location}}</p>
+                </div>
+                <div class="col-2">
+                    <p [ngClass]="{'full-time': oferta.status == 'Tiempo Completo','freelancer': oferta.status == 'Freelancer','proyecto': oferta.status == 'Proyecto','practica': oferta.status == 'Prácticas'}">{{oferta.status}}</p>
+                </div>
+                <div class="col-2">
+                    <p class="p-info">{{oferta.created}}</p>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="box-btn">
+        <button type="button" (click)="verOfertas()" class="btn btn-more">Ver todas las ofertas  <span>>></span></button>
+    </div>
+    <div class="clearfix"></div>
+</div>

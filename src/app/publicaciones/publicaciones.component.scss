@@ -1,0 +1,142 @@
+.publicacion {
+    padding-top: 15px;
+    .img-oferta {
+        width: 100%;
+        height: 84px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: contain;
+    }
+    .title-oferta {
+        font-size: 18px;
+        color: #1F1348;
+        font-weight: 700;
+    }
+    .company-oferta {
+        font-size: 14px;
+        font-weight: 16px;
+        color: #1F1348;
+    }
+    .p-info {
+        font-weight: 400;
+        font-size: 14px;
+        color: #1F1348
+    }
+}
+
+p.full-time {
+    color: #293BE9;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    background: #cbcef5;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+p.freelancer {
+    color: #11C46F;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    background: #ccf3e0;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+p.proyecto {
+    color: #FF530B;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    background: #ffd0bc;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+p.practica {
+    color: #F9910A;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+    background: #f9910a29;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+.box-publicacion {
+    margin-top: 20px;
+}
+
+.publicacion {
+    border-radius: 5px;
+}
+
+h2.titulo-page {
+    font-weight: 400;
+    font-size: 24px;
+    color: #151958;
+}
+
+p.subtitulo-page {
+    font-weight: 400;
+    font-size: 14px;
+    color: #5F628E;
+}
+
+.box-content {
+    margin-top: 40px;
+}
+
+p.full-time2 {
+    text-transform: uppercase;
+    color: #293BE9;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 20px;
+    background: #cbcef5;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+p.freelancer2 {
+    text-transform: uppercase;
+    color: #11C46F;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 20px;
+    background: #ccf3e0;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+p.proyecto2 {
+    text-transform: uppercase;
+    color: #FF530B;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 20px;
+    background: #ffd0bc;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+p.practica2 {
+    text-transform: uppercase;
+    color: #F9910A;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 20px;
+    background: #f9910a29;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
